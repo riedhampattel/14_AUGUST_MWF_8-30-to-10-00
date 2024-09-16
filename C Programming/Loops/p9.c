@@ -10,7 +10,7 @@ int main()
 {
 	int row,i,j;
 	printf("\nEnter the row count = ");
-	scanf("%d",&row);//3
+	scanf("%d",&row);
 	
 	for(i=1;i<=row;i++)
 	{
