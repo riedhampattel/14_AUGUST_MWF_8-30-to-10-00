@@ -4,7 +4,7 @@ int main()
 {
 	int size,a[100],i,j;
 	printf("\nEnter the size of an array = ");
-	scanf("%d",&size);//3
+	scanf("%d",&size);
 	
 	for(i=0;i<size;i++)
 	{
