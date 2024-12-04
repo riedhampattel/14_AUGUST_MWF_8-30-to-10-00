@@ -12,3 +12,4 @@ update employees set salary = salary + 1000 where employee_id = 100;
 
 select * from employees;
 
+describe employees;
