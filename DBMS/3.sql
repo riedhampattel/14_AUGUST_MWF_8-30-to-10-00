@@ -40,7 +40,11 @@ select * from employees where department_id = 60 or department_id = 50 or depart
 
 select * from employees where department_id in (60,50,90);
 
+select * from employees where (department_id,manager_id) in ((90,100),(60,102));
+
 select * from employees where department_id not in (60,50,90);
+
+select * from employees where (department_id,manager_id) not in ((90,100),(60,102));
 
 select * from employees;
 
@@ -61,3 +65,33 @@ select * from employees where first_name like '%e_';
 select * from employees where hire_date like '%-j_n-%';
 
 select * from employees where hire_date like '%-ju_-%';
+
+select min(salary) from employees;
+
+select max(salary) from employees;
+
+select sum(salary) from employees;
+
+select avg(salary) from employees;
+
+select count(salary) from employees;
+
+select count(manager_id) from employees;
+
+select count(commission_pct) from employees;
+
+select department_id,min(salary) from employees group by department_id;
+
+select manager_id,department_id,min(salary) from employees group by department_id,manager_id;
+
+select department_id,count(*) from employees group by department_id;
+
+select * from employees;
+
+select department_id,max(salary) from employees group by department_id having max(salary)>10000 order by 2;
+
+select * from employees order by salary desc limit 5;
+
+select * from employees order by salary desc;
+
+select * from employees order by salary desc limit 10 offset 5;
