@@ -1,6 +1,6 @@
 create table users
 (
-cu_id int,
+cu_id int primary key,
 name varchar(25) not null,
 age int not null
 );
