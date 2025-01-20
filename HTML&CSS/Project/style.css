@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    background-color: black;
+    color: white;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+}
+#logo
+{
+    font-size: 30px;
+    font-weight: 500;
+}
+nav
+{
+    font-size: 25px;
+}
+.navbar a
+{
+    margin-right: 20px;
+}
+.name
+{
+    margin-left: 5rem;
+
+}
+.name h1
+{
+    font-size: 50px;
+    color: brown;
+    font-weight: 800;
+    text-shadow: 0px 0px 20px brown;
+}
+.name h3
+{
+    font-size: 25px;
+}
+.description
+{
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-size: 18px;
+    width: 420px;
+}
+.social-icons
+{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    font-size: 40px;
+}
+.social-icons a
+{
+    margin-right: 1.3rem;
+}
+.btn
+{
+    margin-left: 4.5rem;
+    margin-top: 1rem;
+    font-size: 30px;
+}
+.btn a
+{
+    border: 3px solid brown;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+}
+.image img
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 225, 255);
+    box-shadow: 0px 0px 30px rgb(0, 225, 255);
+}
+.image
+{
+    margin-left: 55rem;
+    margin-top: -25rem;
+}
