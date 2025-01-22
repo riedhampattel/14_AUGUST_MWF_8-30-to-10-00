@@ -9,6 +9,11 @@
     background-color: black;
     color: white;
 }
+#active
+{
+    color: brown;
+    border-bottom: 2px solid brown;
+}
 header
 {
     display: flex;
@@ -19,6 +24,7 @@ header
 {
     font-size: 30px;
     font-weight: 500;
+    transition: 0.5s ease;
 }
 nav
 {
@@ -27,6 +33,13 @@ nav
 .navbar a
 {
     margin-right: 20px;
+    transition: 0.5s ease;
+    border-bottom: 2px solid transparent;
+}
+.navbar a:hover
+{
+    color: brown;
+    border-bottom: 2px solid brown;
 }
 .name
 {
@@ -60,6 +73,12 @@ nav
 .social-icons a
 {
     margin-right: 1.3rem;
+    transition: 0.5s ease;
+}
+.social-icons a:hover
+{
+    text-shadow: 0px 0px 20px rgb(0, 225, 255);
+    cursor: grab;
 }
 .btn
 {
@@ -72,6 +91,12 @@ nav
     border: 3px solid brown;
     border-radius: 30px;
     padding: 5px 10px 5px 10px;
+    transition: 0.5s ease;
+}
+.btn a:hover
+{
+    box-shadow: 0px 0px 20px brown;
+    text-shadow: 0px 0px 20px rgb(0, 225, 255);
 }
 .image img
 {
@@ -80,9 +105,21 @@ nav
     border-radius: 50%;
     border: 2px solid rgb(0, 225, 255);
     box-shadow: 0px 0px 30px rgb(0, 225, 255);
+    transition: 0.5s ease;
+}
+.image img:hover
+{
+    transform: scale(1.1);
+    border: 2px solid brown;
+    box-shadow: 0px 0px 30px brown;
 }
 .image
 {
     margin-left: 55rem;
     margin-top: -25rem;
+}
+#logo:hover
+{
+    color: brown;
+    transform: scale(1.2);
 }
