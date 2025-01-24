@@ -123,3 +123,88 @@ nav
     color: brown;
     transform: scale(1.2);
 }
+.edu-table th
+{
+    border: 2px solid brown;
+    font-size: 25px;
+}
+.edu-table
+{
+    border: 2px solid brown;
+}
+.edu-table td
+{
+    border: 2px solid brown;
+    font-size: 20px;
+    padding: 1rem 5rem;
+}
+.cards
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 0rem 5rem 5rem 5rem;
+}
+.cards div
+{
+    border: 2px solid brown;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px brown;
+    transition: 0.5s ease;
+}
+.cards div:hover
+{
+    box-shadow: 0px 0px 10px rgb(0, 225, 255);
+    border: 2px solid rgb(0, 225, 255);
+}
+.cards div h1
+{
+    font-size: 30px;
+    text-align: center;
+    margin: 1rem;
+}
+.cards div p
+{
+    text-align: center;
+    margin: 1rem;
+}
+.cards div i
+{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    text-shadow: 0px 0px 20px brown;
+}
+.contact
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+input
+{
+    padding: 0.5rem;
+    margin-left: 2rem;
+    border: 1px solid brown;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px brown;
+}
+.contact tr td button
+{
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid brown;
+    box-shadow: 0px 0px 10px brown;
+    padding: 0.5rem 2rem;
+    border-radius: 40px;
+}
+.cont
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+}
+@media(max-width:430px)
+{
+    
+}
