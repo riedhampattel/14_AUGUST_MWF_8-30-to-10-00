@@ -204,7 +204,74 @@ input
     justify-content: space-between;
     margin: 5rem;
 }
-@media(max-width:430px)
+@media (max-width:430px)
 {
-    
+    *
+    {
+        width: 280px;
+        margin: 0rem;
+    }
+    header
+    {
+        display: block;
+        margin: 0rem;
+    }
+    header nav
+    {
+        width: 280px;
+        margin: 0.4rem;
+        text-align: center;
+    }
+    header p
+    {
+        text-align: center;
+        width: 280px;
+    }
+    header nav a
+    {
+        font-size: 15px;
+        margin-right: 0px;
+    }
+    .image
+    {
+        margin: 0;
+        position: absolute;
+        top: 11rem;
+        left: 1.5rem;
+    }
+    .image img
+    {
+        width: 250px;
+        height: 250px;
+    }
+    .name
+    {
+        margin: 0rem;
+        margin-top: 20rem;
+        text-align: center;
+    }
+    .name h1
+    {
+        font-size: 40px;
+    }
+    .name h3
+    {
+        font-size: 20px;
+    }
+    .description
+    {
+        margin: 0;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .social-icons
+    {
+        display: flex;
+        margin: 0rem 0.5rem;
+    }
+    .social-icons a
+    {
+        margin: 0rem 0.7rem;
+        width: 50px;
+    }
 }
