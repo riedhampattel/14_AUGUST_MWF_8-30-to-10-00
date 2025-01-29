@@ -211,7 +211,7 @@ input
 .desg::before
 {
     content: "";
-    animation: position 20s infinite;
+    animation: 20s position infinite;
 }
 .desg::after
 {
