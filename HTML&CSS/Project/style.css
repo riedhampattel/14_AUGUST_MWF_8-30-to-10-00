@@ -204,6 +204,38 @@ input
     justify-content: space-between;
     margin: 5rem;
 }
+.desg
+{
+    color: brown;
+}
+.desg::before
+{
+    content: "";
+    animation: position 20s infinite;
+}
+.desg::after
+{
+    content: "";
+}
+@keyframes position
+{
+    0%,25%
+    {
+        content: "Sofware developer";
+    }
+    25%,50%
+    {
+        content: "Web Developer";
+    }
+    50%,75%
+    {
+        content: "App developer";
+    }
+    75%,100%
+    {
+        content: "Graphics Designer";
+    }
+}
 @media (max-width:430px)
 {
     *

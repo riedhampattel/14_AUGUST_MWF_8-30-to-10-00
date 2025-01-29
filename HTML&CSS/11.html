@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .pattern
+    {
+        background-color: red;
+        height: 250px;
+        margin-top: 5rem;
+        width: 250px;
+        border-radius: 30px;
+        animation: rotate 4s infinite;
+    }
+    @keyframes rotate
+    {
+        1%,25%
+        {
+            transform: rotate(90deg);
+        }
+        25%,50%
+        {
+            transform: rotate(180deg);
+        }
+        50%,75%
+        {
+            transform: rotate(270deg);
+        }
+        75%,100%
+        {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+<body>
+    <center>
+        <div class="pattern">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, perferendis qui. Tempora expedita perferendis porro officiis ducimus sed neque consectetur unde modi, deleniti quaerat possimus quos vero culpa alias autem!</p>
+        </div>
+    </center>
+</body>
+
+</html>
