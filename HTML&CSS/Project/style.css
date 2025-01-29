@@ -294,7 +294,7 @@ input
     .btn
     {
         margin-left: 7rem;
-        margin-bottom: 8rem;
+        margin-bottom: 3rem;
         margin-top: 1.5rem;
     }
     .btn a
@@ -309,91 +309,55 @@ input
     .image
     {
         position: absolute;
-        margin: -50rem 0rem 0rem 3.9rem;
+        margin: -45rem 0rem 0rem 3.9rem;
     }
     .edu-table th
     {
-        border: 2px solid brown;
-        font-size: 25px;
+        font-size: 20px;
     }
     .edu-table
     {
-        border: 2px solid brown;
+        margin-top: 10rem;
+        border: 1px solid brown;
     }
     .edu-table td
     {
-        border: 2px solid brown;
+        border: 1px solid brown;
         font-size: 20px;
-        padding: 1rem 5rem;
+        padding: 1rem 1rem;
     }
     .cards
     {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-gap: 2rem;
-        margin: 0rem 5rem 5rem 5rem;
-    }
-    .cards div
-    {
-        border: 2px solid brown;
-        border-radius: 30px;
-        box-shadow: 0px 0px 10px brown;
-        transition: 0.5s ease;
-    }
-    .cards div:hover
-    {
-        box-shadow: 0px 0px 10px rgb(0, 225, 255);
-        border: 2px solid rgb(0, 225, 255);
-    }
-    .cards div h1
-    {
-        font-size: 30px;
-        text-align: center;
-        margin: 1rem;
-    }
-    .cards div p
-    {
-        text-align: center;
-        margin: 1rem;
-    }
-    .cards div i
-    {
-        font-size: 35px;
-        display: flex;
-        justify-content: center;
-        margin: 1rem;
-        text-shadow: 0px 0px 20px brown;
+        margin: 3rem 0.5rem 3rem 0.5rem;
     }
     .contact
     {
-        font-size: 25px;
-        font-weight: 600;
+        font-size: 15px;
     }
-    input
+    .contact td
     {
-        padding: 0.5rem;
-        margin-left: 2rem;
-        border: 1px solid brown;
-        border-radius: 10px;
-        box-shadow: 0px 0px 10px brown;
+        padding: 0.7rem 0.5rem;
     }
-    .contact tr td button
+    #btn
     {
-        font-size: 20px;
-        font-weight: 600;
-        border: 2px solid brown;
-        box-shadow: 0px 0px 10px brown;
-        padding: 0.5rem 2rem;
-        border-radius: 40px;
+        padding-top: 1.5rem;
     }
     .cont
     {
-        display: flex;
-        justify-content: space-between;
-        margin: 5rem;
+        display: block;
+        margin: 3rem 0rem 2rem 0rem;
     }
-    .desg
+    .cont hr
     {
-        color: brown;
-    }   
+        width: 350px;
+        margin-top: 2rem;
+    }
+    .cont iframe
+    {
+        width: 250px;
+        height: 250px;
+        margin: 3rem;
+    }
 }
