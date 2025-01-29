@@ -242,72 +242,158 @@ input
 }
 @media (max-width:430px)
 {
-    *
-    {
-        width: 280px;
-        margin: 0rem;
-    }
     header
     {
+        text-align: center;
+        width: 380px;
         display: block;
-        margin: 0rem;
+        margin: 3rem 0rem 2rem 0rem;
     }
-    header nav
+    #logo
     {
-        width: 280px;
-        margin: 0.4rem;
-        text-align: center;
+        font-size: 30px;
     }
-    header p
+    nav
     {
-        text-align: center;
-        width: 280px;
+        font-size: 13px;
+        margin-top: 1rem;
     }
-    header nav a
+    .navbar a
     {
-        font-size: 15px;
-        margin-right: 0px;
-    }
-    .image
-    {
-        margin: 0;
-        position: absolute;
-        top: 11rem;
-        left: 1.5rem;
-    }
-    .image img
-    {
-        width: 250px;
-        height: 250px;
+        margin-right: 5px;
     }
     .name
     {
-        margin: 0rem;
-        margin-top: 20rem;
         text-align: center;
+        width: 370px;
+        margin: 20rem 0rem 2rem 0.1rem;
     }
     .name h1
     {
-        font-size: 40px;
+        font-size: 45px;
     }
     .name h3
     {
-        font-size: 20px;
+        margin-top: 0.5rem;
+        font-size: 18px;
     }
     .description
     {
-        margin: 0;
         text-align: center;
-        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 15px;
+        width: 360px;
     }
     .social-icons
     {
-        display: flex;
-        margin: 0rem 0.5rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: 360px;
+        text-align: center;
     }
-    .social-icons a
+    .btn
     {
-        margin: 0rem 0.7rem;
-        width: 50px;
+        margin-left: 7rem;
+        margin-bottom: 8rem;
+        margin-top: 1.5rem;
     }
+    .btn a
+    {
+        padding: 5px 15px 5px 15px;
+    }
+    .image img
+    {
+        height: 250px;
+        width: 250px;
+    }
+    .image
+    {
+        position: absolute;
+        margin: -50rem 0rem 0rem 3.9rem;
+    }
+    .edu-table th
+    {
+        border: 2px solid brown;
+        font-size: 25px;
+    }
+    .edu-table
+    {
+        border: 2px solid brown;
+    }
+    .edu-table td
+    {
+        border: 2px solid brown;
+        font-size: 20px;
+        padding: 1rem 5rem;
+    }
+    .cards
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2rem;
+        margin: 0rem 5rem 5rem 5rem;
+    }
+    .cards div
+    {
+        border: 2px solid brown;
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px brown;
+        transition: 0.5s ease;
+    }
+    .cards div:hover
+    {
+        box-shadow: 0px 0px 10px rgb(0, 225, 255);
+        border: 2px solid rgb(0, 225, 255);
+    }
+    .cards div h1
+    {
+        font-size: 30px;
+        text-align: center;
+        margin: 1rem;
+    }
+    .cards div p
+    {
+        text-align: center;
+        margin: 1rem;
+    }
+    .cards div i
+    {
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+        text-shadow: 0px 0px 20px brown;
+    }
+    .contact
+    {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    input
+    {
+        padding: 0.5rem;
+        margin-left: 2rem;
+        border: 1px solid brown;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px brown;
+    }
+    .contact tr td button
+    {
+        font-size: 20px;
+        font-weight: 600;
+        border: 2px solid brown;
+        box-shadow: 0px 0px 10px brown;
+        padding: 0.5rem 2rem;
+        border-radius: 40px;
+    }
+    .cont
+    {
+        display: flex;
+        justify-content: space-between;
+        margin: 5rem;
+    }
+    .desg
+    {
+        color: brown;
+    }   
 }
